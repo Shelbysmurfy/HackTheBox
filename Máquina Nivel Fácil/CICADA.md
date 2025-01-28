@@ -43,6 +43,8 @@ Haciendo uso de la herramienta enum4linux no encontramos nada, pero hay una herr
 
 Usuario: david.orelious    Password: aRt$Lp#7t*VQ!3
 
+![image](https://github.com/user-attachments/assets/dc9e5ccc-d83e-4df4-83d2-92d2f3b2493b)
+
 ![image](https://github.com/user-attachments/assets/1cb5877f-eb65-40d7-b91d-8577430c1f5c)
 
 Hacemos un nmap con las credenciales obtenidas para ver a que archivos compartidos podemos entrar.
