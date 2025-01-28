@@ -61,4 +61,31 @@ Usuario: emily.oscars  Password: Q!3@Lp#M6b*7t*Vt
 
 Nos conectamos al servicio evil-winrm con las credenciales obtenidas, ya que tenemos el puerto 5985 abierto.
 
+![image](https://github.com/user-attachments/assets/f02ffefd-dd53-4785-abd1-f538c02d9dee)
+
+## SUBMIT USER FLAG
+
+Encontramos la primera flag, la del user.
+
+![image](https://github.com/user-attachments/assets/6b246337-8743-4e95-ae37-7a30d6af99c0)
+
+![image](https://github.com/user-attachments/assets/062c3357-76b6-4fb4-983e-5dce758a0470)
+
+## SUBMIT ROOT FLAG
+
+Miramos sobre que tengo privilegios.
+
+![image](https://github.com/user-attachments/assets/f8dca8bb-c444-4a5f-8783-f443c8345032)
+
+Y seguidamente voy a extraer la base de datos SAM para extraer los hashes NTLM/NTHash que estan almacenadas en el sistema: 
+
+![image](https://github.com/user-attachments/assets/8e21e8d3-63f2-4d57-b1ae-8793f6589875)
+
+![image](https://github.com/user-attachments/assets/fbf05632-d529-4938-bc6a-91cd67d6d535)
+
+Nos conectamos como administrator con las credenciales conseguidas y conseguimos la segunda flag, la del root.
+
+![image](https://github.com/user-attachments/assets/f27796db-4750-4d98-8477-e405410b2b13)
+
+![image](https://github.com/user-attachments/assets/9bf37177-e2e5-4554-8bd3-3540c15f538b)
 
