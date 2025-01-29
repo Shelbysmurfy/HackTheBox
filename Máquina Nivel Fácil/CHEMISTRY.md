@@ -66,17 +66,18 @@ Haciendo uso de curl, encontramos esto:
 
 ![image](https://github.com/user-attachments/assets/6776e3b4-3191-4743-bf09-5bec6f8d057c)
 
-Miramos la vulnerabilidad.
+Miramos la vulnerabilidad "https://github.com/z3rObyte/CVE-2024-23334-PoC"
 
-![image](https://github.com/user-attachments/assets/4ca3e62b-3fae-41a6-b5e4-85a24fb51ec0)
+![image](https://github.com/user-attachments/assets/d456eca0-2a86-420b-80d9-76ec7fbf3b9a)
 
-Ahora usamos la vulnerabilidad para leer el /etc/passwd
+Nos vamos a nuestra máquina, nos la descargamos y nos la llevamos a nuestra máquina vñictima, al dirctorio /tmp
 
-![image](https://github.com/user-attachments/assets/0efe1151-8229-49a4-b1c2-360b5eb226a5)
+![image](https://github.com/user-attachments/assets/eabe97fd-a2ec-45ec-b325-8c1087857928)
 
-Y de esta misma manera podemos encontrar la segunda flag, la del usuario root.
+Editamos el exploit.sh, le ponemos como puerto el "8080", como payload "assets", y en file ponemos lo que queremos conseguir, es decir "/root/root.txt"
 
-![image](https://github.com/user-attachments/assets/8aed665c-5507-4457-b010-14ccc15dc5fa)
+![image](https://github.com/user-attachments/assets/ae4b9a35-ab22-40b1-bb85-1bfdd15c3cb6)
 
-![image](https://github.com/user-attachments/assets/c1cc624a-f544-427d-8d66-2d7c4f78ea16)
+Lo ejecutamos y conseguimos la segunda flag, la del root.
 
+![image](https://github.com/user-attachments/assets/8cbde1f9-22a1-424f-9f0a-a55d3c4cb597)
